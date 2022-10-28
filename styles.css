@@ -1,0 +1,63 @@
+body {
+    font-family: "Courier New", sans-serif;
+    color: #878787;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#frontnav {
+    margin: auto;
+    margin-top: 12vh;
+    font-size: 3vh;
+}
+
+.content {
+    margin: auto;
+}
+
+
+#welcomeText {
+    max-width: 90vh;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-size: 11vh;
+}
+
+.dropdown.show {
+    text-align: left;
+}
+
+div {
+    text-align: center;
+}
+
+.navitem {
+    padding: 5vh;
+}
+
+p {
+    font-size: 2vh;
+}
+header {
+    padding: 1vh;
+}
+footer {
+    padding: 1vh;
+}
+#right{
+    float: right;
+}
